@@ -1,0 +1,84 @@
+/* Styles for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto; /* Center the table horizontally */
+    margin-left: 300px;
+    
+  }
+ .p-details{
+    font-family: "Pacifico", cursive;
+    width: 300px;
+    background-color: yellow;
+    margin-top: 160px;
+    margin-left: 400px;
+    margin-bottom: 40px;
+    padding-left: 110px;
+    
+} 
+table th {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd; /* Border color */
+    padding: 8px; /* Padding inside table cells */
+    text-align: left; /* Align text to the left */
+
+}
+  
+table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+/* Style for the sidebar 
+.sidebar {
+    float: left; 
+    /* Float the sidebar to the left 
+    width: 30%;
+     /* Width of the sidebar 
+    padding: 20px;
+     /* Padding inside the sidebar 
+}*/
+  
+/* Style for the content */
+#content {
+    float: left; /* Float the content to the left */
+    width: 70%; /* Width of the content */
+    padding: 20px; /* Padding inside the content */
+}
+/* Apply styles to the "Add Product" button */
+.add-product-button {
+    display: block;
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 600px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #4515f1;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+  }
+  
+  /* Apply hover effect to the button */
+.add-product-button:hover {
+    background-color: skyblue;
+}
+  
+.box a {
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none; 
+    font-weight: bold; 
+    display: flex;  
+    align-items: center; 
+    justify-content: center;
+    width: 100%;
+    height: 100%;  
+}
+  

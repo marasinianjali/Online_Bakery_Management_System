@@ -8,7 +8,8 @@ body {
 
     width: 100%;
     height: 600px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    margin-top: 5%;
     background-repeat: no-repeat;
     background-size: cover;
     border: 2px solid rgb(223, 214, 214);
@@ -18,10 +19,12 @@ body {
     width: 400px;
     height:400px;
     margin: 0 auto;
-    background-color: rgba(231, 197, 197, 0.772);
-    margin-top: 70px;
+    /* background-color: rgba(231, 197, 197, 0.772); */
+    background-color: #FBE8E9;
+    margin-top: 140px;
+    margin-bottom: 20px;
     border-radius: 10px;
-    ;
+    
 }
 .login-details-container h2{
     text-align: center;
@@ -37,18 +40,20 @@ body {
     
     border-radius:20px;  
     margin-left: 40px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
 
 }
 #email{
     padding: 8px;
-    width: 300px;
+    width: 316px;
     font-size: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #password{
     padding: 8px;
-    width: 300px;
+    width: 316px;
     font-size: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -59,7 +64,7 @@ body {
 .login{
     text-decoration: none;
     background-color:rgb(204, 0, 255);
-    padding: 10px 132px;
+    padding: 10px 128px;
     border-radius: 10px;
     color: white;
     margin-left: 40px;
@@ -69,24 +74,30 @@ body {
   
 }
 .login:hover{
-      background-color: rgb(234, 29, 77);
+      background-color: rgb(234, 29, 169);
 }
-.help-desk{
-    margin-left: 125px;
-    font-family: Georgia, 'Times New Roman', Times, serif; 
-}
-.help-desk:hover{
-    color: chocolate;
-}
-.Signup{
+
+
+.signup{
     text-decoration: none;
     color:blueviolet;
-    font-size: 22px;
-    text-decoration: underline;
+    font-size: 22px; 
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 40px;
     
 }
-.Signup:hover{
-     text-decoration: underline;
-     color: rgb(239, 83, 36);
+.signup a:hover{
+    color: orange;
+}
+ .signup p{
+    width: 300px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color:purple;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+.signup p:hover{
+    color:blue;
+    text-decoration: underline;
 }

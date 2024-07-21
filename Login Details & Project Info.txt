@@ -1,0 +1,14 @@
+Database name : OBMS 
+
+Admin Login/ signup
+Username: Admin
+Password: @Admin
+
+users -> signup
+delivery staff -> signup
+
+First download the zip file and extract into htdocs folder 
+(Xampp-> htdocs) 
+
+Create database OBMS and import the sql file of obms 
+

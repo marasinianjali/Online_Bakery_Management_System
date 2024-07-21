@@ -1,0 +1,86 @@
+/* Styles for the table */
+.maindiv {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  height: 650px;
+  width: 80%;
+  margin: 100px 300px;
+}
+
+.to {
+  font-family: "Pacifico", cursive;
+  width: 300px;
+  background-color: yellow;
+  margin-top: 200px;
+  margin-bottom: 40px;
+  padding-left: 120px;
+  margin-left: 30%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 50px;
+  margin-left: 300px;
+}
+
+table th {
+  background-color: #f2f2f2;
+  border: 1px solid #ddd; /* Border color */
+  padding: 8px; /* Padding inside table cells */
+  text-align: left; /* Align text to the left */
+}
+
+table td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+
+/* For Confirm Order page*/
+.confirm {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+.cancel {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+/* For Confirm Order page*/
+.confirm,
+.cancel {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Style for disabled buttons */
+.confirm[disabled],
+.cancel[disabled] {
+  background-color: #ccc; /* Change background color to gray */
+  cursor: not-allowed; /* Change cursor to not-allowed */
+}
+
+/* Style for disabled buttons when hovered */
+.confirm[disabled]:hover,
+.cancel[disabled]:hover {
+  background-color: #ccc; /* Keep background color gray on hover */
+}

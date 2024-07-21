@@ -5,83 +5,70 @@
 
 #header {
     width: 100%;
-    height: 110px;
-    background-color:rgb(234, 94, 94);
-    
+    height: 130px;
+    background-color:rgb(142, 217, 238);
+    position: fixed;
+    top: 0; /* this line code is for navbar to stays to the top if removed nav bar will come down. */
 }
 
-.logo {
-   
-    width: 120px;
-    display:block;
-    float: left;
-    
-} 
-.logo img {
-    border-radius: 50%;
-    width: 80%;
-    height: auto;
-    margin: 5px;
-}
 
  h2{
     width: 210px;
     display: block;
     margin: 30px 1px;
     font-family: "Lobster", sans-serif;
-    font-size: xx-large;
+    font-size: 20px;
     float:left;
     padding-right: 750px;
+    color: black;
+    text-align: center;
+    margin-left: 540px;
 }
-.icon i{
-    margin: 10px;
-}
-.fa-square-facebook{
-    font-size: 40px;
-    color:white;
-    
-    
-}
-.fa-square-instagram{
-    font-size: 40px;
+/* for navbar content */
+li {
+    float: left;
+    margin-left: 30px;
+    overflow: hidden;
+    margin-bottom: 50px;
+  }
+  
+  li a {
+    font-size: 20px;
+    display: block;
     color: white;
-}
-.icon{
-     padding: 20px;
-    
-}
-#container{
-    width: 100%;
-    height: 700px;
-    margin-bottom: 40px;
-    
-    
-}
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+
+  }
+  
+
 .side-bar{
     width: 15%;
-    height: 670px;
+    /* using top for giving margin-top */
+    top: 21.5%; 
+    height: 75%;
     display: block;
     float: left;
-    background-color:  rgb(251, 196, 124);
-    padding-top: 30px;
- 
+    background-color: rgb(11, 40, 49);
+    position: fixed;
+    padding-top: 20px;
 }
 
 .side-bar a{
   text-decoration: none;  
-  font-size: 25px;
+  font-size: 20px;
   color:white;
   font-weight: bold;
   
   
 }
 .side-bar li{
-    margin: 20px;
-    list-style: none;
-   
-    
+    margin: 10px;
+    width: 60%;
+    list-style: none;    
 }
 .side-bar a:hover{
-   color: black;
+   color:rgb(142, 217, 238);
    text-decoration: underline;
 }

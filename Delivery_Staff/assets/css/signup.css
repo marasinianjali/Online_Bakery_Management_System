@@ -1,0 +1,29 @@
+.side-bar{
+    width: 19%;
+    /* using top for giving margin-top */
+    top: 22%; 
+    height: 75%;
+    display: block;
+    float: left;
+    background-color: rgb(11, 40, 49);
+    position: fixed;
+    padding-top: 20px;
+}
+
+.side-bar a{
+  text-decoration: none;  
+  font-size: 20px;
+  color:white;
+  font-weight: bold;
+  
+  
+}
+.side-bar li{
+    margin: 10px;
+    width: 60%;
+    list-style: none;    
+}
+.side-bar a:hover{
+   color:rgb(142, 217, 238);
+   text-decoration: underline;
+}

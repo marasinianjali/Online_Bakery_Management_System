@@ -1,0 +1,155 @@
+h1{
+    margin: 0 auto;
+    font-family: "Pacifico", cursive;
+    width: 350px;
+    background-color: rgb(255, 222, 91);
+    position: relative;
+    top: 50px;
+    margin-bottom: 80px;
+    padding-left:120px;   
+}
+
+.product-container{
+    border:1px solid red;
+    width:70%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+
+}
+
+.product-details {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    /* border: 2px solid gray; */
+    height: 650px;
+}
+.product-image{
+    width:35%;
+    margin: 40px;
+}
+.product-image img {
+    border:1px solid red;
+    width:70%;
+    margin:0 auto;
+    margin-bottom: 60px;
+}
+
+.product-info {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+
+}
+.product-info p {
+    margin: 5px 0; /* Add margin for spacing between paragraphs */
+    font-size: x-large;
+}
+
+
+.cake-details p {
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+}
+
+.cake-weight{
+    padding-right: 20px;
+}
+.weight-options {
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.weight-options input[type="radio"] {
+
+   margin-left: 20px;
+  
+}
+
+/* CSS to toggle visibility of message box */
+#message:checked ~ .message-box {
+    display: block;
+}
+
+
+.quantity {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-input {
+    width: 50px;
+    text-align: center;
+}
+.quantity {
+    display: flex;
+    align-items: center; 
+}
+
+.quantity p {
+    margin: 0; 
+}
+
+.quantity button {
+    margin: 0 5px; 
+}
+
+.message input[type="checkbox"] {
+    margin-right: 5px; 
+}
+
+.price  {
+        width: 40%;
+        background-color: rgb(181, 248, 248);
+        margin-top: 30px;
+        padding: 8px 20px;
+}
+.order {
+    background-color: blue;
+    color: white;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 38%;
+    margin-top: 10px;
+}
+
+.order:hover{
+    background-color: purple;
+  color: white;
+}
+.des{
+    border:1px solid red;
+    height: 80%;
+    width:70%;
+    margin:0 auto;
+    margin-bottom: 100px;
+  
+}
+.des h3{
+    width: 210px;
+    margin-left: 20px;
+    font-family: "Lobster", sans-serif;
+    font-size: xx-large;
+    padding-right: 750px;
+    color: black;
+    font-weight: lighter;
+}
+ .des p{
+    
+    margin-left: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:large;
+    color: black;
+    
+}
+textarea {
+    width: 100%; 
+    height: 10%;
+    resize: none; 
+}

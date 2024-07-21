@@ -1,0 +1,108 @@
+.main-div {
+  width: 85%;
+  height: 420px;
+  border: 1px solid gray;
+  margin: 0 auto;
+  background-color: #fff;
+  margin-left: 190px;
+  position: relative;
+  top: 100px;
+  margin-bottom: 40px;
+}
+h4 {
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+.main-div p {
+  color: black;
+  margin-bottom: 5px;
+  margin-left: 4px;
+}
+
+#photo {
+  width: 100px;
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 35%;
+  /* border-radius: 50%; */
+}
+.image img {
+  width: 100px;
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 35%;
+  border-radius: 50%;
+}
+table {
+  width: 90%;
+  border: 2px solid black;
+  margin-top: 50px;
+  border-collapse: collapse;
+  height: 100px;
+  margin-bottom: 30px;
+  margin-left: 70px;
+}
+/* Style for table cells */
+td {
+  padding: 20px;
+  border: 2px solid black;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+a:hover {
+  color: blue;
+}
+
+.main-div p,
+label {
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+input {
+  width: 300px;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+.order {
+  padding: 10px 30px;
+  background-color: blue;
+  color: white;
+  margin-left: 40%;
+  border-radius: 15px;
+  font-size: x-large;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 20px;
+}
+
+.order:hover {
+  background-color: purple;
+  color: white;
+}
+/* when there are no order made by users*/
+.no-orders {
+  font-size: 24px;
+  text-align: center;
+  color: red;
+  margin-top: 20px;
+}
+.cancel {
+  padding: 5px 5px;
+  background-color: blue;
+  color: white;
+  /* margin-left: 40%; */
+  border-radius: 15px;
+  font-size: x-large;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 20px;
+}

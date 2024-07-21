@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+.delete {
+
+    width: 40%;
+    height: 270px;
+    /* margin-top: 40px;
+    margin-left:40px; */
+    margin:100px 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid rgb(83, 11, 11);
+}
+.delete h1{
+    font-family: "Lobster", sans-serif;
+    font-size: xx-large;
+    float: center;
+    color: black;
+    margin:50px 100px;
+}
+.delete p{
+    font-family: "Lobster", sans-serif;
+    /* font-size: xx-large; */
+    float: center;
+    /* padding-right: 750px; */
+    color: black;
+    margin-left:100px;
+}
+.button{
+    margin-top: 50px;
+    margin-left: 400px;
+    padding: 15px;
+}
+.No{
+    text-decoration: none;
+    background-color:purple;
+    width: 70px;    
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+.Yes{
+    text-decoration: none;
+    background-color:purple;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    margin-left: 4px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+.No:hover{
+    background-color: rgb(234, 29, 77);
+}
+.Yes:hover{
+    background-color: rgb(234, 29, 77);
+}
